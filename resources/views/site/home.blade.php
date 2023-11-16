@@ -1342,6 +1342,7 @@ Cta Area
 Blog Area
 ==============================-->
 <section class="blog-area-2 space">
+    
 <div class="container container2">
     <div class="row">
         <div class="col-xl-4 col-lg-5 col-md-6 position-relative">
@@ -1405,28 +1406,6 @@ Blog Area
 </div>
 
 </section>
-<script src="{{ asset('js/vendor/jquery-3.6.0.min.js') }}"></script>
-    <!-- Slick Slider -->
-    <script src="{{ asset('js/slick.min.js') }}"></script>
-    <!-- Bootstrap -->
-    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
-    <!-- Magnific Popup -->
-    <script src="{{ asset('js/jquery.magnific-popup.min.js') }}"></script>
-    <!-- Counter Up -->
-    <script src="{{ asset('js/jquery.counterup.min.js') }}"></script>
-    <!-- Range Slider -->
-    <script src="{{ asset('js/jquery-ui.min.js') }}"></script>
-    <!-- Flip Slider -->
-    <script src="{{ asset('js/jquery.flipster.min.js') }}"></script>
-    <!-- Isotope Filter -->
-    <script src="{{ asset('js/imagesloaded.pkgd.min.js') }}"></script>
-    <script src="{{ asset('js/isotope.pkgd.min.js') }}"></script>
 
-    <script src="{{ asset('js/bmi.calculator.js') }}"></script>
-
-    <!-- Main Js File -->
-    <script src="{{ asset('js/main.js') }}"></script>
-
-    <script src="{{ asset('js/script.js') }}"></script>
 
 @endsection

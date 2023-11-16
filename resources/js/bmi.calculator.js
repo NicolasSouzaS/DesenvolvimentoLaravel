@@ -25,15 +25,15 @@ function calculateBMI() {
 
         // Determina a categoria do IMC e define o significado correspondente
         if (finalBmi < 18.5) {
-            document.bmiCalc.meaning.value = "IMC Abaixoasd do Peso";
+            document.bmiCalc.meaning.value = "IMC Abaixo do Peso";
         } else if (finalBmi < 25) {
-            document.bmiCalc.meaning.value = "IMC Norasdmal";
+            document.bmiCalc.meaning.value = "IMC Normal";
         } else if (finalBmi < 30) {
-            document.bmiCalc.meaning.value = "IMC Sobrasdepeso";
+            document.bmiCalc.meaning.value = "IMC Sobrepeso";
         } else if (finalBmi < 35) {
-            document.bmiCalc.meaning.value = "IMC Obesasdo";
+            document.bmiCalc.meaning.value = "IMC Obeso";
         } else {
-            document.bmiCalc.meaning.value = "IMC Extremasdamente Obeso";
+            document.bmiCalc.meaning.value = "IMC Extremamente Obeso";
         }
     } else {
         // Exibe um alerta se os campos não estiverem preenchidos ou se os valores não forem válidos
