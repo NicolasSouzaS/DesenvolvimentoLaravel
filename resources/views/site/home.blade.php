@@ -1,6 +1,6 @@
 @extends('layout.layout');
 
-@section('title', 'Home')
+@section('title', 'Home - Academia Viva Bem')
 
 @section('conteudo')
 <div class="service-bg2-area" data-bg-src="assets/img/bg/service-bg2.png">
@@ -96,7 +96,7 @@ Service Area 01
         </div>
     </div>
     <div class="container-fluid p-0">
-        <div style="height:200px" class="row global-carousel service-slider-1 style2" data-slide-show="4" data-ml-slide-show="3" data-lg-slide-show="3" data-md-slide-show="2" data-sm-slide-show="1" data-xs-slide-show="1" data-dots="false">
+        <div style="height:200px;" class="row global-carousel style2" data-slide-show="4" data-ml-slide-show="3" data-lg-slide-show="3" data-md-slide-show="2" data-sm-slide-show="1" data-xs-slide-show="1" data-dots="false">
             <div class="col-lg-4 col-md-6">
                 <div class="service-card">
                     <div class="service-card_icon">
@@ -1403,6 +1403,30 @@ Blog Area
         </div>
     </div>
 </div>
+
 </section>
+<script src="{{ asset('js/vendor/jquery-3.6.0.min.js') }}"></script>
+    <!-- Slick Slider -->
+    <script src="{{ asset('js/slick.min.js') }}"></script>
+    <!-- Bootstrap -->
+    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+    <!-- Magnific Popup -->
+    <script src="{{ asset('js/jquery.magnific-popup.min.js') }}"></script>
+    <!-- Counter Up -->
+    <script src="{{ asset('js/jquery.counterup.min.js') }}"></script>
+    <!-- Range Slider -->
+    <script src="{{ asset('js/jquery-ui.min.js') }}"></script>
+    <!-- Flip Slider -->
+    <script src="{{ asset('js/jquery.flipster.min.js') }}"></script>
+    <!-- Isotope Filter -->
+    <script src="{{ asset('js/imagesloaded.pkgd.min.js') }}"></script>
+    <script src="{{ asset('js/isotope.pkgd.min.js') }}"></script>
+
+    <script src="{{ asset('js/bmi.calculator.js') }}"></script>
+
+    <!-- Main Js File -->
+    <script src="{{ asset('js/main.js') }}"></script>
+
+    <script src="{{ asset('js/script.js') }}"></script>
 
 @endsection

@@ -1,10 +1,9 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Fitmas - Gym & Fitness HTML Template</title>
+    <title>@yield('title', 'Título Padrão')</title>
     <meta name="description" content="Fitmas - Gym & Fitness HTML Template">
     <meta name="keywords" content="Fitmas - Gym & Fitness HTML Template">
     <meta name="robots" content="INDEX,FOLLOW">
@@ -44,24 +43,26 @@
 
 </head>
 
-<body>
-
-    <style>
-        .hero-slider {
-    position: relative;
+<style>
+    .hero-slider {
+position: relative;
 }
 
 .hero-slider::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.1); /* Altere o valor de '0.5' para ajustar a intensidade do escurecimento */
-    pointer-events: none; /* Permite que você clique através da camada de sobreposição */
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.1); /* Altere o valor de '0.5' para ajustar a intensidade do escurecimento */
+pointer-events: none; /* Permite que você clique através da camada de sobreposição */
 }
-    </style>
+</style>
+
+<body>
+
+
     <!--********************************
    		Code Start From Here
 	******************************** -->
@@ -72,7 +73,7 @@
     <!--==============================
      Preloader
     ==============================-->
-    <div class="preloader ">
+    <div class="preloader">
         <div class="preloader-inner">
             <span class="loader"></span>
         </div>
