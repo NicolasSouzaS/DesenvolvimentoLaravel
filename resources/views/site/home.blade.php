@@ -1084,7 +1084,7 @@ team area 02
             <div class="col-lg-4 col-md-6">
                 <div class="team-card2">
                     <div class="team-card_img">
-                        <img src="{{ asset('assets/instrutor1.png') }}" alt="img">
+                        <img src="{{ asset('assets/instrutores/instrutor1.png') }}" alt="img">
                     </div>
                     <div class="team-card_content">
                         <span class="team-card_subtitle">YOGA COACH</span>
@@ -1097,7 +1097,7 @@ team area 02
             <div class="col-lg-4 col-md-6">
                 <div class="team-card2">
                     <div class="team-card_img">
-                        <img src="{{ asset('assets/instrutor2.png') }}" alt="img">
+                        <img src="{{ asset('assets/instrutores/instrutor2.png') }}" alt="img">
                     </div>
                     <div class="team-card_content">
                         <span class="team-card_subtitle">YOGA COACH</span>
@@ -1110,7 +1110,7 @@ team area 02
             <div class="col-lg-4 col-md-6">
                 <div class="team-card2">
                     <div class="team-card_img">
-                        <img src="{{ asset('assets/instrutor5.png') }}" alt="img">
+                        <img src="{{ asset('assets/instrutores/instrutor5.png') }}" alt="img">
                     </div>
                     <div class="team-card_content">
                         <span class="team-card_subtitle">YOGA COACH</span>
@@ -1123,7 +1123,7 @@ team area 02
             <div class="col-lg-4 col-md-6">
                 <div class="team-card2">
                     <div class="team-card_img">
-                        <img src="{{ asset('assets/instrutor3.png') }}" alt="img">
+                        <img src="{{ asset('assets/instrutores/instrutor3.png') }}" alt="img">
                     </div>
                     <div class="team-card_content">
                         <span class="team-card_subtitle">YOGA COACH</span>
@@ -1136,7 +1136,7 @@ team area 02
             <div class="col-lg-4 col-md-6">
                 <div class="team-card2">
                     <div class="team-card_img">
-                        <img src="{{ asset('assets/instrutor4.png') }}" alt="img">
+                        <img src="{{ asset('assets/instrutores/instrutor4.png') }}" alt="img">
                     </div>
                     <div class="team-card_content">
                         <span class="team-card_subtitle">YOGA COACH</span>
@@ -1149,7 +1149,7 @@ team area 02
             <div class="col-lg-4 col-md-6">
                 <div class="team-card2">
                     <div class="team-card_img">
-                        <img src="{{ asset('assets/instrutor6.png') }}" alt="img">
+                        <img src="{{ asset('assets/instrutores/instrutor6.png') }}" alt="img">
                     </div>
                     <div class="team-card_content">
                         <span class="team-card_subtitle">YOGA COACH</span>
@@ -1162,7 +1162,7 @@ team area 02
             <div class="col-lg-4 col-md-6">
                 <div class="team-card2">
                     <div class="team-card_img">
-                        <img src="{{ asset('assets/instrutor5.png') }}" alt="img">
+                        <img src="{{ asset('assets/instrutores/instrutor5.png') }}" alt="img">
                     </div>
                     <div class="team-card_content">
                         <span class="team-card_subtitle">YOGA COACH</span>
@@ -1175,7 +1175,7 @@ team area 02
             <div class="col-lg-4 col-md-6">
                 <div class="team-card2">
                     <div class="team-card_img">
-                        <img src="{{ asset('assets/instrutor7.png') }}" alt="img">
+                        <img src="{{ asset('assets/instrutores/instrutor7.png') }}" alt="img">
                     </div>
                     <div class="team-card_content">
                         <span class="team-card_subtitle">YOGA COACH</span>
@@ -1342,7 +1342,7 @@ Cta Area
 Blog Area
 ==============================-->
 <section class="blog-area-2 space">
-    
+
 <div class="container container2">
     <div class="row">
         <div class="col-xl-4 col-lg-5 col-md-6 position-relative">

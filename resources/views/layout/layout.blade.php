@@ -226,9 +226,9 @@ pointer-events: none; /* Permite que você clique através da camada de sobrepos
                                         <a href="/sobre">Sobre</a>
                                     </li>
                                     <li class="menu-item-has-children">
-                                        <a href="#">Serviços</a>
+                                        <a href="/servico">Serviços</a>
                                         <ul class="sub-menu">
-                                            <li><a href="service.html">Serviço</a></li>
+                                            <li><a href="/servico">Serviço</a></li>
                                             <li><a href="service-details.html">Detalhes De Serviço</a></li>
                                         </ul>
                                     </li>
@@ -291,7 +291,7 @@ pointer-events: none; /* Permite que você clique através da camada de sobrepos
     ==============================-->
     <div class="hero-wrapper hero-2" id="hero">
         <div class="global-carousel" id="heroSlider2" data-fade="true" data-slide-show="1" data-lg-slide-show="1" data-md-slide-show="1" data-sm-slide-show="1" data-xs-slide-show="1" data-arrows="true" data-xl-arrows="true" data-ml-arrows="true">
-            <div style="background-position: unset;" class="hero-slider" data-bg-src="{{ asset('assets/bemEstar.jpeg') }}">
+            <div style="background-position: unset;" class="hero-slider" data-bg-src="{{ asset('assets/banner/bemEstar.jpeg') }}">
                 <div class="hero-shape2-1 shape-mockup movingX" data-bottom="-165px" data-left="0">
                     <img src="assets/img/hero/hero_shape_2-1.png" alt="img">
                 </div>
@@ -316,7 +316,7 @@ pointer-events: none; /* Permite que você clique através da camada de sobrepos
                     </div>
                 </div>
             </div>
-            <div style="background-position: unset" class="hero-slider" data-bg-src="{{ asset('assets/bemEstarComprimido.jpeg') }}">
+            <div style="background-position: unset" class="hero-slider" data-bg-src="{{ asset('assets/banner/bemEstar2.jpeg') }}">
                 <div class="hero-shape2-1 shape-mockup movingX" data-bottom="-165px" data-left="0">
                     <img src="assets/img/hero/hero_shape_2-1.png" alt="img">
                 </div>
@@ -400,27 +400,27 @@ pointer-events: none; /* Permite que você clique através da camada de sobrepos
                             <h3 class="widget_title">Galeria</h3>
                             <div class="sidebar-gallery">
                                 <div class="gallery-thumb">
-                                    <img src="{{ asset('assets/75.1.png') }}" alt="Gallery Image">
+                                    <img src="{{ asset('assets/instaFooter/75.1.png') }}" alt="Gallery Image">
                                     <a href="assets/img/widget/insta-feed1.png" class="gallery-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="gallery-thumb">
-                                    <img src="{{ asset('assets/75.2.png') }}" alt="Gallery Image">
+                                    <img src="{{ asset('assets/instaFooter/75.2.png') }}" alt="Gallery Image">
                                     <a href="assets/img/widget/insta-feed2.png" class="gallery-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="gallery-thumb">
-                                    <img src="{{ asset('assets/75.3.png') }}" alt="Gallery Image">
+                                    <img src="{{ asset('assets/instaFooter/75.3.png') }}" alt="Gallery Image">
                                     <a href="assets/img/widget/insta-feed3.png" class="gallery-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="gallery-thumb">
-                                    <img src="{{ asset('assets/75.4.png') }}" alt="Gallery Image">
+                                    <img src="{{ asset('assets/instaFooter/75.4.png') }}" alt="Gallery Image">
                                     <a href="assets/img/widget/insta-feed4.png" class="gallery-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="gallery-thumb">
-                                    <img src="{{ asset('assets/75.5.png') }}" alt="Gallery Image">
+                                    <img src="{{ asset('assets/instaFooter/75.5.png') }}" alt="Gallery Image">
                                     <a href="assets/img/widget/insta-feed5.png" class="gallery-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="gallery-thumb">
-                                    <img src="{{ asset('assets/75.6.png') }}" alt="Gallery Image">
+                                    <img src="{{ asset('assets/instaFooter/75.6.png') }}" alt="Gallery Image">
                                     <a href="assets/img/widget/insta-feed6.png" class="gallery-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
