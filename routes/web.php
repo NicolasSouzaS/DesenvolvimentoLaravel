@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\EquipeController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ServicoController;
 use App\Http\Controllers\SobreController;
@@ -23,6 +24,7 @@ Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/sobre', [SobreController::class, 'index'])->name('sobre');
 Route::get('/servico',[ServicoController::class, 'index'])->name('servico');
 Route::get('/contato', [ContatoController::class, 'index'])->name('contato');
+Route::get('/equipe', [EquipeController::class, 'index'])->name('equipe');
 Route::get('/modalidade', [ModalidadesController::class, 'index'])->name('modalidade');
 Route::get('/treino', []);
 

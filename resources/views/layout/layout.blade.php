@@ -58,6 +58,23 @@ height: 100%;
 background: rgba(0, 0, 0, 0.1); /* Altere o valor de '0.5' para ajustar a intensidade do escurecimento */
 pointer-events: none; /* Permite que você clique através da camada de sobreposição */
 }
+
+.social-btn a {
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    border-radius: 7px;
+    display: inline-block;
+    background-color: var(--smoke-color4);
+    color: var(--title-color);
+    text-align: center;
+    font-size: 12px;
+    padding-top: 3%;
+}
+
+a i{
+    font-size: 12pt;
+}
 </style>
 
 <body>

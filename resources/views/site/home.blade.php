@@ -3,6 +3,30 @@
 @section('title', 'Home - Academia Viva Bem')
 
 @section('conteudo')
+
+<style>
+    .about-info-wrap.style2 .icon {
+    box-shadow: 0px 10px 21px rgba(0, 0, 0, 0.12);
+    border: 0;
+    padding-top: 8%;
+    font-size: 17pt;
+    }
+    .counter-card.style2 .counter-card_icon {
+    background: var(--title-color);
+    padding-top: 7%;
+    }
+
+    .about-grid.style3 .about-grid_icon {
+    border-radius: 0;
+    padding-top: 3%;
+    }
+    .about-info-wrap .icon .fa-phone-volume {
+    transform: rotate(-30deg);
+    padding-top: 18%;
+    font-size: 18pt;
+    }
+</style>
+
 <div class="service-bg2-area" data-bg-src="assets/img/bg/service-bg2.png">
 <div class="bmi-area-1 space">
     <div class="container">

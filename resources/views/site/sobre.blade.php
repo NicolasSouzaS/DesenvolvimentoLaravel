@@ -11,6 +11,19 @@
     .alturaSobre{
         height: 75%;
     }
+
+    .about-info-wrap .icon {
+    height: 56px;
+    width: 56px;
+    line-height: 56px;
+    border: 1px solid #dddddd;
+    font-size: 18px;
+    color: var(--theme-color);
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 5%;
+    font-size: 19pt;
+    }
 </style>
 
 <div class="service-bg2-area" data-bg-src="assets/img/bg/servico-amarelo.png">
