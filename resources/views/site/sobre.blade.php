@@ -190,8 +190,8 @@
     <div style="height: 80%;" class="team-area-1 space">
         <div class="container">
             <div class="title-area text-center">
-                <span class="sub-title">Our Trainer</span>
-                <h2 class="sec-title">Meet Our Amazing Team</h2>
+                <span class="sub-title">Nossos fundadores</span>
+                <h2 style="color: white;" class="sec-title">Conheça quem tornou realidade</h2>
             </div>
             <div class="row global-carousel team-slider-1 slider-shadow" data-slide-show="4" data-ml-slide-show="4" data-lg-slide-show="3" data-md-slide-show="2" data-sm-slide-show="1" data-xs-slide-show="1" data-center-mode="true">
                 <div class="col-lg-4 col-md-6">

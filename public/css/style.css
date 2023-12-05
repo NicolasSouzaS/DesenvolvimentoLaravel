@@ -11732,7 +11732,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .bmi-calculator-form {
-  background: var(--title-color);
+  background: #1C1C1C;
   border: 1px solid #2D2D2D;
   box-shadow: 0px 7px 78px rgba(0, 0, 0, 0.18);
   padding: 60px;
@@ -14658,3 +14658,15 @@ span.select2-selection.select2-selection--single:focus {
     padding-top: 65px;
   }
 }
+
+body {
+}
+
+body.dark-mode {
+    background-color: #19252E;
+    --theme-color: #0D6A57;
+    --smoke-color2: #1C1C1C;
+    --title-color: #a1a1a1;
+    transition: 1.95s ease-in-out,1.95s ease-in-out,1.95s ease-in-out,1.15s ease-in-out;
+}
+

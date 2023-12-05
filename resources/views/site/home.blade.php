@@ -25,7 +25,13 @@
     padding-top: 18%;
     font-size: 18pt;
     }
+    .about-grid.style2 .about-grid_icon {
+    background: none;
+    border: none;
+    box-shadow: 0px 10px 21px rgba(0, 0, 0, 0.1);
+}
 </style>
+
 
 <div class="service-bg2-area" data-bg-src="assets/img/bg/service-bg2.png">
 <div class="bmi-area-1 space">
@@ -230,7 +236,7 @@ Service Area 01
     </div>
 </div>
 <div class="sec-shape2-bottom">
-    <img src="assets/img/bg/sec-shape2-top.png" alt="img">
+    <img id="imagemExibidaTop" src="assets/img/bg/sec-shape2-top.png" alt="img">
 </div>
 </div>
 
@@ -947,7 +953,9 @@ Video Area
 <!--==============================
 Portfolio Area
 ==============================-->
-<div class="portfolio-area-1 service-bg-area" data-bg-src="assets/portfolioComp.jpeg">
+
+
+<div class="portfolio-area-1 service-bg-area" data-bg-src="assets/portfolioComp.jpeg" id="imagemExibidaPortf">
 
 <div class="container">
     <div class="title-area text-center">
@@ -1011,7 +1019,10 @@ Portfolio Area
         </div>
     </div>
 </div>
+
 </div>
+
+
 
 <!--==============================
 wcu area
@@ -1428,6 +1439,7 @@ Blog Area
         </div>
     </div>
 </div>
+</label>
 
 </section>
 

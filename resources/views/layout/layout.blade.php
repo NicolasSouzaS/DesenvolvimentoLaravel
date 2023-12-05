@@ -80,6 +80,7 @@ a i{
 <body>
 
 
+
     <!--********************************
    		Code Start From Here
 	******************************** -->
@@ -144,11 +145,12 @@ a i{
                 <ul>
                     <li class="">
                         <a href="/">Home</a>
+
                     </li>
                     <li class="menu-item-has-children">
                         <a href="#">Pages</a>
                         <ul class="sub-menu">
-                            <li><a href="team.html">Página De Equipe</a></li>
+                            <li><a href="/equipe">Página De Equipe</a></li>
                             <li><a href="team-2.html">Página De Equipe 02</a></li>
                             <li><a href="team-details.html">Detalhes Da Equipe</a></li>
                             <li><a href="gallery.html">Página De Galeria</a></li>
@@ -238,6 +240,10 @@ a i{
                                 <ul>
                                     <li class="">
                                         <a href="/">Home</a>
+                                        <label class="switch">
+                                            <input type="checkbox" class="toggle-switch">
+                                            <span class="slider round"></span>
+                                        </label>
                                     </li>
                                     <li>
                                         <a href="/sobre">Sobre</a>
@@ -252,7 +258,7 @@ a i{
                                     <li class="menu-item-has-children">
                                         <a href="#">Paginas</a>
                                         <ul class="sub-menu">
-                                            <li><a href="team.html">Página De Equipe</a></li>
+                                            <li><a href="/equipe">Página De Equipe</a></li>
                                             <li><a href="team-2.html">Página De Equipe 02</a></li>
                                             <li><a href="team-details.html">Detalhes Da Equipe</a></li>
                                             <li><a href="gallery.html">Página De Galeria</a></li>
@@ -289,7 +295,7 @@ a i{
                         </div>
                         <div class="col-auto d-none d-lg-block">
                             <div class="header-button">
-                                <a href="contact.html" class="btn style2 style-r0 d-xl-block d-none">
+                                <a href="javascript:void" class="btn style2 style-r0 d-xl-block d-none" id="startNowButton">
                                    Começar agora
                                 </a>
                                 <button type="button" class="btn style-r0 btn-border3 sideMenuToggler">
