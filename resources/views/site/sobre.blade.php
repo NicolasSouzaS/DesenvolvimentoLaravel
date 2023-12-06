@@ -26,7 +26,7 @@
     }
 </style>
 
-<div class="service-bg2-area" data-bg-src="assets/img/bg/servico-amarelo.png">
+<div class="service-bg2-area" data-bg-src="assets/img/bg/servico-amarelo.png" id="fundoPage">
     <div class="bmi-area-1 space">
         <div style="margin-bottom: 5%;" class="container">
             <div class="space">

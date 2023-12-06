@@ -1,19 +1,38 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const startNowButton = document.getElementById('startNowButton');
     const imagemExibidaTop = document.getElementById('imagemExibidaTop');
-    const imagemExibidaPortf = document.getElementById('imagemExibidaPortf');
+    const darkModeToggle = document.getElementById('darkModeToggle');
 
-    startNowButton.addEventListener('click', function () {
-        document.body.classList.toggle('dark-mode');
-        if(imagemExibidaTop.src.endsWith('assets/img/bg/sec-shape2-top.png')){
-            imagemExibidaTop.src = 'assets/img/bg/sec-shape2-top-escuro.png';
-        }else{
-            imagemExibidaTop.src = 'assets/img/bg/sec-shape2-top.png';
+
+
+        function applyDarkMode() {
+            const isDarkMode = localStorage.getItem('darkMode') === 'true';
+
+
+            document.body.classList.toggle('dark-mode', isDarkMode);
+
+            if(isDarkMode){
+                imagemExibidaTop.src = 'assets/img/bg/sec-shape2-top-escuro.png';
+            }
+            else{
+                imagemExibidaTop.src = 'assets/img/bg/sec-shape2-top.png';
+            }
+
+
+            if (darkModeToggle) {
+                darkModeToggle.checked = isDarkMode;
+            }
         }
-        if(imagemExibidaPortf.src.endsWith('assets/portfolioComp.jpeg')){
-            imagemExibidaPortf.src = 'assets/portfolioCompEscuro.png'
-        }else{
-            imagemExibidaPortf.src ='assets/portfolioComp.jpeg';
+
+
+        applyDarkMode();
+
+
+
+        if (darkModeToggle) {
+            darkModeToggle.addEventListener('change', function () {
+                const isDarkMode = darkModeToggle.checked;
+                localStorage.setItem('darkMode', isDarkMode);
+                applyDarkMode();
+            });
         }
-    });
 });

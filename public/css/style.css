@@ -14660,13 +14660,14 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 body {
+    transition: 1.95s ease-in-out,1.95s ease-in-out,1.95s ease-in-out,1.15s ease-in-out;
 }
 
 body.dark-mode {
     background-color: #19252E;
     --theme-color: #0D6A57;
     --smoke-color2: #1C1C1C;
-    --title-color: #a1a1a1;
+    --title-color: #648DB6;
     transition: 1.95s ease-in-out,1.95s ease-in-out,1.95s ease-in-out,1.15s ease-in-out;
 }
 
